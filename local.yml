@@ -1,5 +1,5 @@
-- hosts: localhost
-  become: yes
+- hosts: all
+  #become: yes
   tasks:
     - name: Install Web Server
       package:
