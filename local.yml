@@ -3,5 +3,5 @@
   tasks:
     - name: Install Web Server
       package:
-        name: vsftpd
+        name: httpd
         state: installed
